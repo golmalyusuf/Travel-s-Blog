@@ -8,7 +8,7 @@
 		<version>2.0.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>io.javabrains</groupId>
+	<groupId>com.yusuf.travel</groupId>
 	<artifactId>spring-security-jpa</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>TravelersBlog</name>
@@ -37,6 +37,11 @@
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.18</version>
 		</dependency>
 		<dependency>
 			<groupId>com.h2database</groupId>
