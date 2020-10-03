@@ -1,4 +1,4 @@
-package io.javabrains;
+package com.yusuf.travel;
 
 import org.springframework.boot.test.context.SpringBootTest;
 
