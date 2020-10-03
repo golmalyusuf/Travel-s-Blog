@@ -10,7 +10,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HomeController {
 	
 	@GetMapping("/index")
-	public String allCustomersPage(HttpServletRequest request, Model model) {
+	public String getHome(HttpServletRequest request, Model model) {
 		return "home";
+	}
+	
+	@GetMapping("/registration")
+	public String getRegistrationPage(HttpServletRequest request, Model model) {
+		return "registration";
 	}
 }

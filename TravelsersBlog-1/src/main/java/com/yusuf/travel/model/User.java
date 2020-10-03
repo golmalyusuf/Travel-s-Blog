@@ -1,4 +1,4 @@
-package com.yusuf.travel.entity;
+package com.yusuf.travel.model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -50,9 +50,7 @@ public class User {
 		super();
 	}
 
-	public User(long id, String firstName, String lastName, String email, String password, String role) {
-		super();
-		this.id = id;
+	public User(String firstName, String lastName, String email, String password, String role) {
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.email = email;
